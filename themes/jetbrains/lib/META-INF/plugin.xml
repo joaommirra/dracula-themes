@@ -1,0 +1,16 @@
+<idea-plugin>
+  <idea-version since-build="191"/>
+  <id>com.draculatheme.idea</id>
+  <name>Dracula Pro</name>
+  <version>1.4.0</version>
+  <vendor email="zeno@draculatheme.com" url="https://draculatheme.com/pro">Dracula Pro</vendor>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="171dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaPro.theme.json"/>
+    <themeProvider id="271dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaProBlade.theme.json"/>
+    <themeProvider id="371dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaProBuffy.theme.json"/>
+    <themeProvider id="471dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaProLincoln.theme.json"/>
+    <themeProvider id="571dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaProMorbius.theme.json"/>
+    <themeProvider id="671dce76-a3c5-4429-91af-41cf86094740" path="/themes/DraculaProVanHelsing.theme.json"/>
+  </extensions>
+</idea-plugin>
